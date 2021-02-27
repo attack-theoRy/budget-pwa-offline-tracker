@@ -1,6 +1,6 @@
 {
-  "name": "pwa-offline-budget-tracker",
-  "short_name": "budget tracker",
+  "name": "budget-app",
+  "short_name": "budget-tracker",
   "theme_color": "#fff",
   "background_color": "#fff",
   "display": "standalone",

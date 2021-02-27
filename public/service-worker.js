@@ -8,8 +8,7 @@ const FILES_TO_CACHE = ["/", "/index.html",
 "icons/icon-152x152.png",
 "icons/icon-192x192.png",
 "icons/icon-384x384.png",
-"icons/icon-512x512.png",
-"routes/api.js"];
+"icons/icon-512x512.png",];
 
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
@@ -18,7 +17,7 @@ const DATA_CACHE_NAME = "data-cache-v1";
 self.addEventListener("install", function (evt) {
     // pre cache image data
     evt.waitUntil(
-      caches.open(DATA_CACHE_NAME).then((cache) => cache.add("/api/transaction"))
+      caches.open(CACHE_NAME).then((cache) => cache.add("/api/transaction"))
     );
   
     // pre cache all static assets
