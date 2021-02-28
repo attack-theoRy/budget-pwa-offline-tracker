@@ -9,7 +9,7 @@ by Pirooz Wallace
 
 Deployed Heroku App: [App on Heroku](https://secret-chamber-01910.herokuapp.com/)
 
-GitHub Repo: [Budget Tracker repo](https://github.com/attack-theoRy/workout-tracker)
+GitHub Repo: [Budget Tracker repo](https://github.com/attack-theoRy/budget-pwa-offline-tracker)
 
 Portfolio: [Portfolio](https://attack-theory.github.io/Portfolio/)
 
@@ -35,7 +35,7 @@ Portfolio: [Portfolio](https://attack-theory.github.io/Portfolio/)
 
 This is a full-stack progressive web app that uses Node.js, Express routes, Mongoose, mongo DB atlas, heroku to track your budget. You can add or subtract to your budget. 
 
-![Install](public/images/Sample1install.png)
+![Install](public/images/Sample1install.PNG)
 
 Because this is a progressive web app, you can also install it on your phone or desktop to use for offline use.
 
