@@ -7,7 +7,7 @@ by Pirooz Wallace
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](#license)
 
-Deployed Heroku App: [App on Heroku](https://guarded-brushlands-97283.herokuapp.com/)
+Deployed Heroku App: [App on Heroku](https://secret-chamber-01910.herokuapp.com/)
 
 GitHub Repo: [Workout Tracker repo](https://github.com/attack-theoRy/workout-tracker)
 
