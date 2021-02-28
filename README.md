@@ -1,15 +1,15 @@
 # Budget Tracker
- A budget tracker that also works offline as a progressive webapp, complete with web manifest. Created with Mongoose, Node, Express and Heroku.
+ A budget tracker that also works offline as a progressive webapp.
 
 
 by Pirooz Wallace
 2/27/21
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](#license)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](#license)  -- MIT license fine print is also it's own file in the repo
 
 Deployed Heroku App: [App on Heroku](https://secret-chamber-01910.herokuapp.com/)
 
-GitHub Repo: [Workout Tracker repo](https://github.com/attack-theoRy/workout-tracker)
+GitHub Repo: [Budget Tracker repo](https://github.com/attack-theoRy/workout-tracker)
 
 Portfolio: [Portfolio](https://attack-theory.github.io/Portfolio/)
 
@@ -22,6 +22,7 @@ Portfolio: [Portfolio](https://attack-theory.github.io/Portfolio/)
 * [Questions](#questions)
 
 ## Tech
+* Progressive Web App | Web Manifest
 * Node.js
 * Express
 * Mongoose
@@ -32,28 +33,22 @@ Portfolio: [Portfolio](https://attack-theory.github.io/Portfolio/)
 
 ## Description
 
-This is a full-stack app that uses Node.js, Express routes, Mongoose, mongo db atlas, heroku to create and track workout routines. You can create your own workout, exercise by exercise by choosing new workout and then resistance or cardio
+This is a full-stack progressive web app that uses Node.js, Express routes, Mongoose, mongo DB atlas, heroku to track your budget. You can add or subtract to your budget. 
 
-![Resistance](Example1.png)
+![Install](public/images/Sample1install.png)
 
-![Cardio](Example2.png)
+Because this is a progressive web app, you can also install it on your phone or desktop to use for offline use.
 
-Then if you want to see your stats that include total duration of exercises along with total pounds and a bunch of other stats you can click 'Dashboard' to see the following stats:
-
-![Stats](Example3.png)
-
-Also when you go to continue or create a new workout you can see the stats of your last workout here
-
-![Last](Example4.png)
+![OfflineApp](public/images/Sample2Standalone.png)
 
 
 
 ## Installation
 
-The app can be found with no installation needed on heroku at :  https://guarded-brushlands-97283.herokuapp.com/
+The app can be found with no installation needed on heroku at :  https://secret-chamber-01910.herokuapp.com/
 Or to use through terminal do the following:
 
-To use properly you need to install Node.js and in the terminal you have to use the command 
+To use properly you can either use `npm install ` to install all the dependencies from package.json or you can install the dependencies one by one. First need to install Node.js and in the terminal you have to use the command 
 ``` npm init -y ```
 
 and then also install the following dependencies 
@@ -64,35 +59,11 @@ and then also install the following dependencies
 
 ``` npm install morgan ``` to install morgan (request logger middleware)
 
-
-The databases were seeded separately while testing using `npm run seed` with the 'seeds' file.
-
-
 And then finally to start the application you type ``` node server.js ``` in the terminal.
 
 ## License
 
-MIT License
-
-Copyright (c) [2021] [Pirooz Wallace]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+MIT License is in a separate file
 
 ## Questions
 For questions please contact: Pirooz Wallace
