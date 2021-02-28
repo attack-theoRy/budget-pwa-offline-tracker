@@ -1,5 +1,5 @@
 # Budget Tracker
- A budget tracker that also works offline as a progressive webapp. Created with Mongoose, Node, Express and Heroku.
+ A budget tracker that also works offline as a progressive webapp, complete with web manifest. Created with Mongoose, Node, Express and Heroku.
 
 
 by Pirooz Wallace
