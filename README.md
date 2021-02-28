@@ -39,7 +39,7 @@ This is a full-stack progressive web app that uses Node.js, Express routes, Mong
 
 Because this is a progressive web app, you can also install it on your phone or desktop to use for offline use.
 
-![OfflineApp](public/images/Sample2Standalone.png)
+![OfflineApp](public/images/Sample2Standalone.PNG)
 
 
 
