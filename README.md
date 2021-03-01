@@ -1,5 +1,5 @@
 # Budget Tracker
- A budget tracker that also works offline as a progressive webapp.
+ A budget tracker that also works offline as a progressive web app.
 
 
 by Pirooz Wallace
